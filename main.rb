@@ -100,7 +100,7 @@ class Game
         end
 
         
-        puts @secret_word
+        
         while (@attempts <= ATTEMPTS_MAX && winner?(@secret_word) == false)
           letter = guess
           letters_guessed(letter, @secret_word)
